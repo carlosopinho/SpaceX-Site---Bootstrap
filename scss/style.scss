@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+* {
+  color: white;
+}
+
+@import "./communElements/variables.scss";
+
+@import "./communElements/communElements.scss";
+
+@import "./Pages/home.scss";
+
+@import "./Pages/falcon9.scss";
+
+@import "./Pages/humanSpace.scss";

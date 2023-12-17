@@ -1,0 +1,72 @@
+.header {
+  font-size: 12px;
+  font-weight: bold;
+
+  #navItem {
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+}
+.arrowDown {
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+}
+.LogoPc {
+  width: 250px;
+  margin-left: -15px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: $padding-button;
+}
+
+.footer {
+  background-color: black;
+  height: 20vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .copyOBC {
+    color: $copy-color;
+  }
+}
+
+/* MEDIA QUERY */
+@media (max-width: 405px) {
+  .LogoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .LogoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
